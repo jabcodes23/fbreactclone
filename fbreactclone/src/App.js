@@ -8,10 +8,11 @@ function App() {
     <div className="app">
       <Header />
 
-      {/* App body */}
+      <div className='app_body'>
         <Sidebar />
         <Feed />
         {/* Widgets */}
+      </div>
     </div>
   );
 }
